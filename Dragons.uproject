@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{CFE7551B-4AAB-CF30-C24C-C0BE988C9A59}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Dragons",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "TextToSpeech",
+			"Enabled": true
+		}
+	]
+}
